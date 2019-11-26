@@ -3,15 +3,19 @@
     padding: 0;
 }
 #ResumeFont{
-    font-family: cambria, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ibarra Real Nova', serif;
     font-style: oblique;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
 }
+h1{
+    font-family: 'Alike Angular', serif;
+    margin: 10px;
+}
 #background-color{
-    background-color: rgb(203, 253, 234);
+    background-color: rgb(173 220 145);
 }
 #container {
     width: 100vw;
@@ -21,6 +25,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 #header
 {
@@ -36,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
     /* object-fit: cover; */
 }
 
