@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/MainPage.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
-    <script src="js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <script src="libraries/p5/p5.dom.min.js"></script>
+    <script src="libraries/p5/p5.min.js"></script>
+    
     <title>MainPage</title>
 </head>
 
 <body id = "background-color">
-        <iframe id="iframe1" src="https://editor.p5js.org/.Darcy./embed/z-nqMBfSU"></iframe>
-<br>
+    
+    <br>
 
     <header>
-        <div id="header">
-            <h1> § Darcy Nicholson § </h1>
-            <h2> <p><a href="resume.html">Resume </a></p> 
+        <h1> § Darcy Nicholson § </h1>
+        <h2>
+            <p><a href="resume.html">Resume </a></p> 
             <p><a href="contact.html"> Contact</a></p>
-            <p> <a href="bio.html">Bio</a></p>
-            </h2>
-        </div>
+            <p><a href="bio.html">Bio</a></p>
+        </h2>
     </header>
-    
+    <div id="sketch-parent"></div>
     <div>
         <a href="PhoneInterface/index.html"><img id="mushroom" src="PhoneInterface/Images/HedgehogMushroom.png"></img></a>
     </div>
@@ -33,20 +34,30 @@
         <div class= "box" id="scientific-illustration">
             <a href="ScientificIllustration.html">
                 <img id="image2" src="assets/Images/OrangGrasshopperTRANSP.png"></a>
-            <p id="scientific-info">Scientific Illustration</p></div>
+            <p id="scientific-info">Scientific Illustration</p>
+        </div>
 
-        <div class="anim"><a href= "https://vimeo.com/user97442975"><img id="image4" src="assets/Gif/fallen-tree.gif">
+        <div class="anim">
+            <a href= "https://vimeo.com/user97442975"><img id="image4" src="assets/Gif/fallen-tree.gif">
              </a>
-            <p
-            id="Animation">Animation</p>
+             <p id="Animation">Animation</p>
         </div>
             
-            <div class="shop"><a href="https://athenaantique.bigcartel.com/"><img id="image3" src="assets/Images/shop.png"></a><p id="shoptext">Shop</p>
-            </div>
-            </div>
+        <div class="shop">
+            <a href="https://athenaantique.bigcartel.com/"><img id="image3" src="assets/Images/shop.png"></a>
+            <p id="shoptext">Shop</p>
+        </div>
+        
+        <div class="WebComics">
+            <a href="WebComics/index.html"><img src="assets/Images/Cover.jpg"></a>
+            <p id="webcomictext">WebComics</p>
+        </div>
+    </div>
 
-            <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293828887&color=%2370c5d2&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-            </iframe>
+    <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293828887&color=%2370c5d2&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
 
