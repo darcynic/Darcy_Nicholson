@@ -1,2 +1,2 @@
-# DarcyNicholsonArt
-My portfolio website
+# DarcyNicholson
+Portfolio website
